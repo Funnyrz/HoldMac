@@ -35,3 +35,6 @@ hdiutil create \
 rm -rf "$STAGING_DIR"
 
 echo "Created $DMG_PATH"
+echo
+echo "If macOS blocks the app after installation, run:"
+echo "  xattr -dr com.apple.quarantine \"/Applications/$APP_NAME.app\""
