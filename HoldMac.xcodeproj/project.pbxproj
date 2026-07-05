@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0000012C31B00000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000102C31B00000000001 /* main.swift */; };
+		7A0000022C31B00000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000112C31B00000000001 /* AppDelegate.swift */; };
+		7A0000032C31B00000000001 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000122C31B00000000001 /* BucketItem.swift */; };
+		7A0000042C31B00000000001 /* BucketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000132C31B00000000001 /* BucketView.swift */; };
+		7A0000052C31B00000000001 /* BucketWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000142C31B00000000001 /* BucketWindowController.swift */; };
+		7A0000062C31B00000000001 /* DragWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000152C31B00000000001 /* DragWatcher.swift */; };
+		7A0000082C31B00000000001 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001A2C31B00000000001 /* AppSettings.swift */; };
+		7A0000092C31B00000000001 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001B2C31B00000000001 /* SettingsWindowController.swift */; };
+		7A00000A2C31B00000000001 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001C2C31B00000000001 /* Localizer.swift */; };
+		7A00000B2C31B00000000001 /* GlobalHotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001D2C31B00000000001 /* GlobalHotKeyManager.swift */; };
+		7A00000C2C31B00000000001 /* ShortcutModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001E2C31B00000000001 /* ShortcutModifier.swift */; };
+		7A00000D2C31B00000000001 /* BucketStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00001F2C31B00000000001 /* BucketStore.swift */; };
+		7A00000E2C31B00000000001 /* BucketListWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000252C31B00000000001 /* BucketListWindowController.swift */; };
+		7A00000F2C31B00000000001 /* DragOperationPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000262C31B00000000001 /* DragOperationPrompt.swift */; };
+		7A0000282C31B00000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0000272C31B00000000001 /* Assets.xcassets */; };
+		7A00002B2C31B00000000001 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7A00002C2C31B00000000001 /* en.lproj */; };
+		7A00002D2C31B00000000001 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7A00002E2C31B00000000001 /* zh-Hans.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A0000072C31B00000000001 /* 文件中转桶.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "文件中转桶.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000102C31B00000000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7A0000112C31B00000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A0000122C31B00000000001 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		7A0000132C31B00000000001 /* BucketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketView.swift; sourceTree = "<group>"; };
+		7A0000142C31B00000000001 /* BucketWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketWindowController.swift; sourceTree = "<group>"; };
+		7A0000152C31B00000000001 /* DragWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragWatcher.swift; sourceTree = "<group>"; };
+		7A0000162C31B00000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0000172C31B00000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7A0000182C31B00000000001 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		7A0000192C31B00000000001 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
+		7A00001A2C31B00000000001 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		7A00001B2C31B00000000001 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		7A00001C2C31B00000000001 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		7A00001D2C31B00000000001 /* GlobalHotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKeyManager.swift; sourceTree = "<group>"; };
+		7A00001E2C31B00000000001 /* ShortcutModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutModifier.swift; sourceTree = "<group>"; };
+		7A00001F2C31B00000000001 /* BucketStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketStore.swift; sourceTree = "<group>"; };
+		7A0000252C31B00000000001 /* BucketListWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListWindowController.swift; sourceTree = "<group>"; };
+		7A0000262C31B00000000001 /* DragOperationPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragOperationPrompt.swift; sourceTree = "<group>"; };
+		7A0000272C31B00000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A00002C2C31B00000000001 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		7A00002E2C31B00000000001 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0000322C31B00000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0000202C31B00000000001 = {
+			isa = PBXGroup;
+			children = (
+				7A0000182C31B00000000001 /* Package.swift */,
+				7A0000172C31B00000000001 /* README.md */,
+				7A0000192C31B00000000001 /* Makefile */,
+				7A0000212C31B00000000001 /* Sources */,
+				7A0000222C31B00000000001 /* Resources */,
+				7A0000232C31B00000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0000212C31B00000000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7A0000242C31B00000000001 /* HoldMac */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7A0000222C31B00000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A0000162C31B00000000001 /* Info.plist */,
+				7A0000272C31B00000000001 /* Assets.xcassets */,
+				7A00002C2C31B00000000001 /* en.lproj */,
+				7A00002E2C31B00000000001 /* zh-Hans.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A0000232C31B00000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0000072C31B00000000001 /* 文件中转桶.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0000242C31B00000000001 /* HoldMac */ = {
+			isa = PBXGroup;
+			children = (
+				7A0000112C31B00000000001 /* AppDelegate.swift */,
+				7A00001A2C31B00000000001 /* AppSettings.swift */,
+				7A0000122C31B00000000001 /* BucketItem.swift */,
+				7A0000252C31B00000000001 /* BucketListWindowController.swift */,
+				7A00001F2C31B00000000001 /* BucketStore.swift */,
+				7A0000132C31B00000000001 /* BucketView.swift */,
+				7A0000142C31B00000000001 /* BucketWindowController.swift */,
+				7A0000262C31B00000000001 /* DragOperationPrompt.swift */,
+				7A0000152C31B00000000001 /* DragWatcher.swift */,
+				7A00001D2C31B00000000001 /* GlobalHotKeyManager.swift */,
+				7A00001C2C31B00000000001 /* Localizer.swift */,
+				7A00001E2C31B00000000001 /* ShortcutModifier.swift */,
+				7A00001B2C31B00000000001 /* SettingsWindowController.swift */,
+				7A0000102C31B00000000001 /* main.swift */,
+			);
+			path = HoldMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0000302C31B00000000001 /* HoldMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0000402C31B00000000001 /* Build configuration list for PBXNativeTarget "HoldMac" */;
+			buildPhases = (
+				7A0000312C31B00000000001 /* Sources */,
+				7A0000322C31B00000000001 /* Frameworks */,
+				7A0000332C31B00000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoldMac;
+			productName = HoldMac;
+			productReference = 7A0000072C31B00000000001 /* 文件中转桶.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0000502C31B00000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					7A0000302C31B00000000001 = {
+						CreatedOnToolsVersion = 26.6;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7A0000412C31B00000000001 /* Build configuration list for PBXProject "HoldMac" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 7A0000202C31B00000000001;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 7A0000232C31B00000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0000302C31B00000000001 /* HoldMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0000332C31B00000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0000282C31B00000000001 /* Assets.xcassets in Resources */,
+				7A00002B2C31B00000000001 /* en.lproj in Resources */,
+				7A00002D2C31B00000000001 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0000312C31B00000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0000012C31B00000000001 /* main.swift in Sources */,
+				7A0000022C31B00000000001 /* AppDelegate.swift in Sources */,
+				7A0000032C31B00000000001 /* BucketItem.swift in Sources */,
+				7A0000042C31B00000000001 /* BucketView.swift in Sources */,
+				7A0000052C31B00000000001 /* BucketWindowController.swift in Sources */,
+				7A0000062C31B00000000001 /* DragWatcher.swift in Sources */,
+				7A0000082C31B00000000001 /* AppSettings.swift in Sources */,
+				7A00000B2C31B00000000001 /* GlobalHotKeyManager.swift in Sources */,
+				7A00000A2C31B00000000001 /* Localizer.swift in Sources */,
+				7A00000C2C31B00000000001 /* ShortcutModifier.swift in Sources */,
+				7A00000D2C31B00000000001 /* BucketStore.swift in Sources */,
+				7A00000E2C31B00000000001 /* BucketListWindowController.swift in Sources */,
+				7A00000F2C31B00000000001 /* DragOperationPrompt.swift in Sources */,
+				7A0000092C31B00000000001 /* SettingsWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A0000602C31B00000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A0000612C31B00000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7A0000622C31B00000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HoldMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				WRAPPER_NAME = "文件中转桶.app";
+			};
+			name = Debug;
+		};
+		7A0000632C31B00000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HoldMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				WRAPPER_NAME = "文件中转桶.app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0000402C31B00000000001 /* Build configuration list for PBXNativeTarget "HoldMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0000622C31B00000000001 /* Debug */,
+				7A0000632C31B00000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A0000412C31B00000000001 /* Build configuration list for PBXProject "HoldMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0000602C31B00000000001 /* Debug */,
+				7A0000612C31B00000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A0000502C31B00000000001 /* Project object */;
+}
