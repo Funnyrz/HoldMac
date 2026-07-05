@@ -76,6 +76,7 @@ final class SettingsView: NSView {
     private let screenControl = NSSegmentedControl(labels: ["Current Screen", "Main Screen"], trackingMode: .selectOne, target: nil, action: nil)
     private let clearButton = NSButton(title: "", target: nil, action: nil)
     private let noteLabel = NSTextField(labelWithString: "")
+    private let versionLabel = NSTextField(labelWithString: "")
     private let contentStack = NSStackView()
     private var shortcutMonitor: Any?
     private var isRecordingShortcut = false
@@ -151,6 +152,10 @@ final class SettingsView: NSView {
         noteLabel.textColor = .secondaryLabelColor
         noteLabel.lineBreakMode = .byWordWrapping
 
+        versionLabel.font = .systemFont(ofSize: 12)
+        versionLabel.textColor = .tertiaryLabelColor
+        versionLabel.lineBreakMode = .byWordWrapping
+
         contentStack.setViews([
             titleLabel,
             subtitleLabel,
@@ -165,7 +170,8 @@ final class SettingsView: NSView {
             settingRow(titleKey: .display, detailKey: .displayDetail, control: screenControl),
             divider(),
             settingRow(titleKey: .bucketContents, detailKey: .bucketContentsDetail, control: clearButton),
-            noteLabel
+            noteLabel,
+            versionLabel
         ], in: .top)
         contentStack.orientation = .vertical
         contentStack.alignment = .leading
@@ -181,7 +187,8 @@ final class SettingsView: NSView {
             triggerModeControl.widthAnchor.constraint(equalToConstant: 170),
             operationControl.widthAnchor.constraint(equalToConstant: 170),
             screenControl.widthAnchor.constraint(equalToConstant: 220),
-            noteLabel.widthAnchor.constraint(equalTo: contentStack.widthAnchor)
+            noteLabel.widthAnchor.constraint(equalTo: contentStack.widthAnchor),
+            versionLabel.widthAnchor.constraint(equalTo: contentStack.widthAnchor)
         ])
     }
 
@@ -272,6 +279,7 @@ final class SettingsView: NSView {
         shortcutClearButton.title = l10n.text(.shortcutClear)
         clearButton.title = l10n.text(.clearBucket)
         noteLabel.stringValue = l10n.text(.modifierNote)
+        versionLabel.stringValue = AppVersion().localizedDescription(localizer: l10n)
         for row in localizedRows {
             row.titleLabel.stringValue = l10n.text(row.titleKey)
             row.detailLabel.stringValue = l10n.text(row.detailKey)

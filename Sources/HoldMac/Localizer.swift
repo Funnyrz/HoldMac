@@ -40,6 +40,7 @@ struct Localizer {
         case bucketContents
         case bucketContentsDetail
         case modifierNote
+        case softwareVersionFormat
         case dropFilesHere
         case bucketListTitle
         case bucketListEmpty
@@ -109,6 +110,7 @@ struct Localizer {
             .bucketContents: "Hold area contents",
             .bucketContentsDetail: "Remove all temporary file references now.",
             .modifierNote: "Modifier keys can still override the default copy/move operation during a Finder drop.",
+            .softwareVersionFormat: "Version %@ (%@)",
             .dropFilesHere: "Drop files here",
             .bucketListTitle: "Hold Area Contents",
             .bucketListEmpty: "The hold area is empty.",
@@ -164,6 +166,7 @@ struct Localizer {
             .bucketContents: "中转桶内容",
             .bucketContentsDetail: "立即移除所有临时文件引用。",
             .modifierNote: "拖到 Finder 时，修饰键仍可临时覆盖默认复制/移动操作。",
+            .softwareVersionFormat: "版本 %@ (%@)",
             .dropFilesHere: "把文件拖到这里",
             .bucketListTitle: "中转桶内容",
             .bucketListEmpty: "中转桶是空的。",
